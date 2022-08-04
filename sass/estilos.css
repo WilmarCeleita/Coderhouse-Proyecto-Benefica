@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+@media (max-width: 450px) { /* min = desde... */
+  .navbar .container .navbar-brand .logoempresa {
+    width: 50px;
+    height: auto;
+  }
+  .navbar-brand .marca {
+    /* background: #000000; */
+    font-size: 15px;
+  }
+  .navbar .navbar-expand-lg .fixed-top {
+    background: #122a76;
+    font-size: 20px;
+  }
+  .navbar-toggler-icon {
+    /* background-color: rgb(0, 255, 55); */
+    width: 15px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .carousel-item img {
+    height: auto;
+  }
+  .carousel-inner {
+    width: 100%;
+  }
+  .piePagina {
+    background-image: radial-gradient(circle at 88.34% 50%, #005784 0, #005686 10%, #005488 20%, #005289 30%, #0a5089 40%, #264e88 50%, #364c86 60%, #444984 70%, #4f4681 80%, #58437d 90%, #614179 100%);
+  }
+  .piePagina .container .piePaginaTexto h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+  }
+}
+@media (min-width: 1250px) and (max-width: 1400px) {
+  .foto-1 {
+    transition: all 1s;
+  }
+  .foto-1:hover {
+    width: 600px;
+    height: auto;
+    opacity: 1;
+  }
+  .foto-2 {
+    transition: all 1s;
+  }
+  .foto-2:hover {
+    width: 600px;
+    height: auto;
+    opacity: 1;
+  }
+  .foto-3 {
+    transition: all 1s;
+  }
+  .foto-3:hover {
+    width: 600px;
+    height: auto;
+    opacity: 1;
+  }
+}
+.body {
+  background-color: #f3f3f3;
+}
+
+/* alinear textos */
+/* Acomda imagenes del portafolio */
+.justifyText {
+  text-align: justify;
+}
+.justifyText h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  margin-top: 1px;
+}
+.justifyText .foto-1 {
+  filter: opacity(60%);
+}
+.justifyText .foto-1:hover {
+  filter: none;
+}
+.justifyText .foto-2 {
+  filter: opacity(60%);
+}
+.justifyText .foto-2:hover {
+  filter: none;
+}
+.justifyText .foto-3 {
+  filter: opacity(60%);
+}
+.justifyText .foto-3:hover {
+  filter: none;
+}
+
+/*Logo empresa */
+.navbar .container .navbar-brand .logoempresa {
+  max-width: 100px;
+  border-radius: 30px;
+  border: 1.8px solid hsl(194deg, 64%, 92%);
+  transition: 1s;
+}
+
+/* Color barra de navegacion */
+.fixed-top {
+  background-image: radial-gradient(circle at 88.34% 50%, #005784 0, #005686 10%, #005488 20%, #005289 30%, #0a5089 40%, #264e88 50%, #364c86 60%, #444984 70%, #4f4681 80%, #58437d 90%, #614179 100%);
+}
+
+/* carrusel */
+.carousel-inner {
+  background-color: #f3f3f3;
+}
+.carousel-inner img {
+  margin-top: 100px;
+}
+
+.piePagina {
+  background-image: radial-gradient(circle at 88.34% 50%, #005784 0, #005686 10%, #005488 20%, #005289 30%, #0a5089 40%, #264e88 50%, #364c86 60%, #444984 70%, #4f4681 80%, #58437d 90%, #614179 100%);
+}
+.piePagina .container .piePaginaRedes a {
+  padding-bottom: 10px;
+  margin: 4px;
+}
+.piePagina .container .piePaginaRedes img {
+  width: 35px;
+  height: auto;
+  padding: 1px;
+  filter: grayscale(1);
+}
+.piePagina .container .piePaginaRedes img:hover {
+  filter: none;
+}
+.piePagina .container .piePaginaCopy p {
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.container-fluid .map {
+  margin-top: 100px;
+}
+
+/* portafolio de servicios */
+.serviciosBenefica {
+  padding-top: 150px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* pagina galeria */
+.galeriaBenefica {
+  background-color: #f3f3f3;
+}
+.galeriaBenefica img {
+  width: 100%;
+  filter: grayscale(1);
+}
+.galeriaBenefica img:hover {
+  filter: none;
+}
+
+.img-Celular, .img-escritorio {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+.img-escritorio {
+  background-color: #122a76;
+}/*# sourceMappingURL=estilos.css.map */
